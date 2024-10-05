@@ -2,7 +2,7 @@
   <EasyHeader />
   <EasyContainer
     layout="container"
-    class="flex h-screen flex-col items-center justify-center gap-8"
+    class="flex h-screen-header flex-col items-center justify-center gap-8"
   >
     <span class="flex flex-col items-center justify-center gap-2 text-center">
       <h1>Easy Terminal</h1>

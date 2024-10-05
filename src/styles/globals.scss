@@ -27,3 +27,11 @@ body {
 .p-divider::before {
   border-color: white !important;
 }
+
+.h-screen-header {
+  height: calc(100dvh - 52px);
+
+  @screen md {
+    height: calc(100dvh - 64px);
+  }
+}
