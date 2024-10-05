@@ -4,7 +4,7 @@ import "./styles/typography.scss";
 import App from "./App.vue";
 
 import { OhVueIcon, addIcons } from "oh-vue-icons";
-import { BiGithub } from "oh-vue-icons/icons";
+import { SiGnubash, PxMenu, IoCloseSharp } from "oh-vue-icons/icons";
 import { createPinia } from "pinia";
 
 import PrimeVue from "primevue/config";
@@ -12,7 +12,7 @@ import Aura from "@primevue/themes/aura";
 
 import router from "./router";
 
-addIcons(BiGithub);
+addIcons(SiGnubash, PxMenu, IoCloseSharp);
 
 const app = createApp(App);
 const pinia = createPinia();
