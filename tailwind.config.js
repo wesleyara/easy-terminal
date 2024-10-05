@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        s: "400px"
+        s: "400px",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
